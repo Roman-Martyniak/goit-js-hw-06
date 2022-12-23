@@ -1,5 +1,6 @@
 const btnChangeColor = document.querySelector('.change-color');
 const color = document.querySelector('.color');
+const body = document.body;
 
 const changeColor = () => {
   btnChangeColor.textContent = getRandomHexColor();
